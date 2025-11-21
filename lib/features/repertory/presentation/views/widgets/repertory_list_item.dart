@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:organizador_repertorios/features/repertory/domain/entities/repertory.dart';
-import 'package:organizador_repertorios/features/musics/presentation/views/musics_page.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/views/widgets/trailing_repertory_options.dart';
-import 'package:organizador_repertorios/core/widgets/child_sized_modal_bottom_sheet.dart';
+import 'package:hymnum/core/widgets/child_sized_modal_bottom_sheet.dart';
+import 'package:hymnum/features/musics/presentation/views/musics_page.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
+import 'package:hymnum/features/repertory/presentation/views/widgets/trailing_repertory_options.dart';
 import 'package:provider/provider.dart';
 
 class RepertoryListItem extends StatelessWidget {

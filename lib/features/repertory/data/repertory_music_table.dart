@@ -1,5 +1,5 @@
-import 'package:organizador_repertorios/features/musics/domain/entities/music.dart';
-import 'package:organizador_repertorios/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
 
 class RepertoryMusicTable {
   static const String tableName = 'repertory_music';
@@ -7,7 +7,8 @@ class RepertoryMusicTable {
   static const String repertoryId = 'repertory_id';
   static const String musicId = 'music_id';
 
-  static const String createTable = '''
+  static const String createTable =
+      '''
     CREATE TABLE IF NOT EXISTS repertory_music (
       $id INTEGER PRIMARY KEY AUTOINCREMENT,
       $repertoryId INTEGER NOT NULL,

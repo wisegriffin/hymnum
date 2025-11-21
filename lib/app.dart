@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:organizador_repertorios/core/theme/theme_controller.dart';
+import 'package:hymnum/core/theme/theme_controller.dart';
 import 'main_page.dart';
 
 class App extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:organizador_repertorios/core/utils/validation.dart';
-import 'package:organizador_repertorios/features/repertory/domain/entities/repertory.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
+import 'package:hymnum/core/utils/validation.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 void showRenameRepertoryBottomSheet(

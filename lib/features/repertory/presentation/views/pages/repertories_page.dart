@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/views/widgets/rename_repertory_bottom_sheet.dart';
+import 'package:hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
+import 'package:hymnum/features/repertory/presentation/views/widgets/empty_list_message.dart';
+import 'package:hymnum/features/repertory/presentation/views/widgets/rename_repertory_bottom_sheet.dart';
+import 'package:hymnum/features/repertory/presentation/views/widgets/repertory_list_item.dart';
 import 'package:provider/provider.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/views/widgets/repertory_list_item.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/views/widgets/empty_list_message.dart';
+
 
 class RepertoriesPage extends StatelessWidget {
   const RepertoriesPage({super.key});

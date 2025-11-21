@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:organizador_repertorios/features/musics/domain/entities/music.dart';
-import 'package:organizador_repertorios/features/repertory/data/repertory_music_table.dart';
-import 'package:organizador_repertorios/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/repertory/data/repertory_music_table.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
 import 'package:sqflite/sqlite_api.dart';
 
 class RepertoryMusicService {

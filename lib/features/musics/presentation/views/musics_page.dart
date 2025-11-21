@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:organizador_repertorios/core/utils/validation.dart';
-import 'package:organizador_repertorios/features/musics/data/repos/music_repo.dart';
-import 'package:organizador_repertorios/features/musics/domain/contracts/imusic_repo.dart';
-import 'package:organizador_repertorios/features/musics/presentation/viewmodels/music_viewmodel.dart';
-import 'package:organizador_repertorios/features/repertory/domain/entities/repertory.dart';
-import 'package:organizador_repertorios/features/repertory/domain/repertory_music_service.dart';
-import 'package:organizador_repertorios/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
-import 'package:organizador_repertorios/features/musics/presentation/views/widgets/music_item_view.dart';
+import 'package:hymnum/core/utils/validation.dart';
+import 'package:hymnum/features/musics/data/repos/music_repo.dart';
+import 'package:hymnum/features/musics/domain/contracts/imusic_repo.dart';
+import 'package:hymnum/features/musics/presentation/viewmodels/music_viewmodel.dart';
+import 'package:hymnum/features/musics/presentation/views/widgets/music_item_view.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/repertory/domain/repertory_music_service.dart';
+import 'package:hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 class MusicsPage extends StatelessWidget {
