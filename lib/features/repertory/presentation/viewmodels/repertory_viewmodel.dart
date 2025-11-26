@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:Hymnum/features/repertory/domain/contracts/irepertory_repo.dart';
-import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/repertory/domain/contracts/irepertory_repo.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
 
 class RepertoryViewmodel with ChangeNotifier {
   RepertoryViewmodel(this._repertoryRepo) {

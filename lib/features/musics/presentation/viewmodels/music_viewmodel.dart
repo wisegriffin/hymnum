@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:Hymnum/features/musics/domain/contracts/imusic_repo.dart';
-import 'package:Hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/musics/domain/contracts/imusic_repo.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
 
 class MusicViewmodel with ChangeNotifier {
   MusicViewmodel(this._musicRepo);

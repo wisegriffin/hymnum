@@ -1,5 +1,5 @@
-import 'package:Hymnum/features/musics/domain/entities/music.dart';
-import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
 
 class RepertoryMusicTable {
   static const String tableName = 'repertory_music';

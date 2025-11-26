@@ -1,6 +1,6 @@
-import 'package:Hymnum/features/musics/domain/entities/music.dart';
-import 'package:Hymnum/features/repertory/data/repertory_music_table.dart';
-import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/repertory/data/repertory_music_table.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 

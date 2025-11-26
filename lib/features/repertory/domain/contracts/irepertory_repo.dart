@@ -1,4 +1,4 @@
-import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
 
 abstract class IRepertoryRepo {
   Future<void> createRepertory(String name);

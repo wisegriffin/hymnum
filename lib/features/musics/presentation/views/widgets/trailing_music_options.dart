@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Hymnum/features/musics/domain/entities/music.dart';
-import 'package:Hymnum/features/musics/presentation/views/music_content_view.dart';
-import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
-import 'package:Hymnum/features/repertory/presentation/views/widgets/delete_music_alert.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/musics/presentation/views/music_content_view.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/repertory/presentation/views/widgets/delete_music_alert.dart';
 
 class TrailingMusicOptions extends StatelessWidget {
   const TrailingMusicOptions(this._music, this._repertory, {super.key});

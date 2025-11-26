@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:Hymnum/core/data/local_db.dart';
-import 'package:Hymnum/features/musics/data/repos/music_repo.dart';
-import 'package:Hymnum/features/musics/presentation/viewmodels/music_viewmodel.dart';
-import 'package:Hymnum/features/repertory/data/repos/repertory_repo.dart';
-import 'package:Hymnum/features/repertory/domain/repertory_music_service.dart';
-import 'package:Hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
+import 'package:hymnum/core/data/local_db.dart';
+import 'package:hymnum/features/musics/data/repos/music_repo.dart';
+import 'package:hymnum/features/musics/presentation/viewmodels/music_viewmodel.dart';
+import 'package:hymnum/features/repertory/data/repos/repertory_repo.dart';
+import 'package:hymnum/features/repertory/domain/repertory_music_service.dart';
+import 'package:hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
 
 import 'package:provider/provider.dart';
 import 'package:sqflite/sqflite.dart';

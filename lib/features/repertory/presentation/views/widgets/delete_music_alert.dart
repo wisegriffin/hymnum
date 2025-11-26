@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Hymnum/features/musics/data/repos/music_repo.dart';
-import 'package:Hymnum/features/musics/domain/entities/music.dart';
-import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
-import 'package:Hymnum/features/repertory/domain/repertory_music_service.dart';
+import 'package:hymnum/features/musics/data/repos/music_repo.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:hymnum/features/repertory/domain/repertory_music_service.dart';
 import 'package:provider/provider.dart';
 
 void showDeleteMusicAlert({

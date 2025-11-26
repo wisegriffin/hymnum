@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:Hymnum/core/widgets/discard_changes_alert.dart';
-import 'package:Hymnum/features/musics/domain/entities/music.dart';
-import 'package:Hymnum/features/musics/presentation/viewmodels/music_viewmodel.dart';
+import 'package:hymnum/core/widgets/discard_changes_alert.dart';
+import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:hymnum/features/musics/presentation/viewmodels/music_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 enum AcessMode { view, edit }
