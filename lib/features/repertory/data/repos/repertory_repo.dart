@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:hymnum/features/repertory/data/repertory_music_table.dart';
-import 'package:hymnum/features/repertory/domain/contracts/irepertory_repo.dart';
-import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:Hymnum/features/repertory/data/repertory_music_table.dart';
+import 'package:Hymnum/features/repertory/domain/contracts/irepertory_repo.dart';
+import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
 import 'package:sqflite/sqflite.dart';
 
 class RepertoryRepo implements IRepertoryRepo {

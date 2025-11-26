@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
-import 'package:hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
+import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:Hymnum/features/repertory/presentation/viewmodels/repertory_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 void showDeleteRepertoryAlert({

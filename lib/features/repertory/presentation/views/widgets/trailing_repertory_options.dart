@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
-import 'package:hymnum/features/repertory/presentation/views/widgets/delete_repertory_alert.dart';
-import 'package:hymnum/features/repertory/presentation/views/widgets/rename_repertory_bottom_sheet.dart';
+import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:Hymnum/features/repertory/presentation/views/widgets/delete_repertory_alert.dart';
+import 'package:Hymnum/features/repertory/presentation/views/widgets/rename_repertory_bottom_sheet.dart';
 
 class TrailingRepertoryOptions extends StatelessWidget {
   const TrailingRepertoryOptions(this._repertory, {super.key});

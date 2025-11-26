@@ -1,4 +1,4 @@
-import 'package:hymnum/features/musics/domain/entities/music.dart';
+import 'package:Hymnum/features/musics/domain/entities/music.dart';
 
 abstract class IMusicRepo {
   Future<Music> createMusic({

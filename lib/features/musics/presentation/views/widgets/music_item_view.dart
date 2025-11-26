@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hymnum/core/widgets/child_sized_modal_bottom_sheet.dart';
-import 'package:hymnum/features/musics/domain/entities/music.dart';
-import 'package:hymnum/features/musics/presentation/views/music_content_view.dart';
-import 'package:hymnum/features/musics/presentation/views/widgets/trailing_music_options.dart';
-import 'package:hymnum/features/repertory/domain/entities/repertory.dart';
+import 'package:Hymnum/core/widgets/child_sized_modal_bottom_sheet.dart';
+import 'package:Hymnum/features/musics/domain/entities/music.dart';
+import 'package:Hymnum/features/musics/presentation/views/music_content_view.dart';
+import 'package:Hymnum/features/musics/presentation/views/widgets/trailing_music_options.dart';
+import 'package:Hymnum/features/repertory/domain/entities/repertory.dart';
 
 class MusicItemView extends StatelessWidget {
   const MusicItemView(this._music, this._repertory, {super.key});
