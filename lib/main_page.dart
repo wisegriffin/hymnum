@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hymnum/features/repertory/presentation/views/pages/repertories_page.dart';
+import 'package:hymnum/presentation/repertoire/views/pages/repertories_page.dart';
 import 'package:hymnum/features/settings_page/settings_page.dart';
 
 
@@ -12,7 +12,7 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
   int _selectedIndex = 0;
-  final _destinations = [RepertoriesPage(), SettingsPage()];
+  final _destinations = [RepertoiresPage(), SettingsPage()];
 
   void _navigateToSelected(int index) {
     setState(() => _selectedIndex = index);

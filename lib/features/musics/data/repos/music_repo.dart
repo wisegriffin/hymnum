@@ -1,4 +1,4 @@
-import 'package:hymnum/core/utils/extensions.dart';
+import 'package:hymnum/shared/utils/extensions.dart';
 import 'package:hymnum/features/musics/domain/contracts/imusic_repo.dart';
 import 'package:hymnum/features/musics/domain/entities/music.dart';
 import 'package:sqflite/sqlite_api.dart';

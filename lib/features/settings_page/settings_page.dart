@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hymnum/core/theme/theme_controller.dart';
+import 'package:hymnum/shared/theme/theme_controller.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});

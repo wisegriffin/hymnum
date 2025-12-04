@@ -67,7 +67,7 @@ abstract class MusicTable {
   static String createTable =
       '''
     CREATE TABLE IF NOT EXISTS ${MusicTable.tableName} (
-      ${MusicTable.columnId} INTEGER PRIMARY KEY AUTOINCREMENT,
+      ${MusicTable.columnId} TEXT PRIMARY KEY,
       ${MusicTable.columnTitle} TEXT NOT NULL,
       ${MusicTable.columnAuthor} TEXT NOT NULL,
       ${MusicTable.columnContent} TEXT,
